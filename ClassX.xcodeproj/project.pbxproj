@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		44FCDEEF22D7409200228EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FCDEEE22D7409200228EC2 /* AppDelegate.swift */; };
-		44FCDEF122D7409200228EC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FCDEF022D7409200228EC2 /* ViewController.swift */; };
 		44FCDEF422D7409300228EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FCDEF222D7409300228EC2 /* Main.storyboard */; };
 		44FCDEF622D7409400228EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44FCDEF522D7409400228EC2 /* Assets.xcassets */; };
 		44FCDEF922D7409400228EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FCDEF722D7409400228EC2 /* LaunchScreen.storyboard */; };
 		44FCDF0422D7409400228EC2 /* ClassXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FCDF0322D7409400228EC2 /* ClassXTests.swift */; };
 		44FCDF0F22D7409400228EC2 /* ClassXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FCDF0E22D7409400228EC2 /* ClassXUITests.swift */; };
+		44FCDF2922D74D6B00228EC2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FCDF2822D74D6B00228EC2 /* LoginViewController.swift */; };
+		44FCDF2B22D74D8100228EC2 /* MyMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FCDF2A22D74D8100228EC2 /* MyMapViewController.swift */; };
+		44FCDF2D22D74D8F00228EC2 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FCDF2C22D74D8F00228EC2 /* MasterViewController.swift */; };
+		44FCDF2F22D74D9D00228EC2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FCDF2E22D74D9D00228EC2 /* DetailViewController.swift */; };
+		44FCDF3122D74DAF00228EC2 /* MyWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FCDF3022D74DAF00228EC2 /* MyWebViewController.swift */; };
+		44FCDF3322D7512F00228EC2 /* AsyncRequestWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FCDF3222D7512F00228EC2 /* AsyncRequestWorker.swift */; };
+		44FCDF3622D75ACC00228EC2 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FCDF3522D75ACC00228EC2 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		44FCDEEB22D7409200228EC2 /* ClassX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FCDEEE22D7409200228EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44FCDEF022D7409200228EC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44FCDEF322D7409300228EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44FCDEF522D7409400228EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44FCDEF822D7409400228EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		44FCDF0A22D7409400228EC2 /* ClassXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FCDF0E22D7409400228EC2 /* ClassXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassXUITests.swift; sourceTree = "<group>"; };
 		44FCDF1022D7409400228EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FCDF2822D74D6B00228EC2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../projects/ClassX/ClassX/LoginFlow/LoginViewController.swift; sourceTree = "<group>"; };
+		44FCDF2A22D74D8100228EC2 /* MyMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyMapViewController.swift; path = ../../../../projects/ClassX/ClassX/MapFlow/MyMapViewController.swift; sourceTree = "<group>"; };
+		44FCDF2C22D74D8F00228EC2 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MasterViewController.swift; path = ../../../../projects/ClassX/ClassX/MasterFlow/MasterViewController.swift; sourceTree = "<group>"; };
+		44FCDF2E22D74D9D00228EC2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../../../../projects/ClassX/ClassX/MasterFlow/DetailViewController.swift; sourceTree = "<group>"; };
+		44FCDF3022D74DAF00228EC2 /* MyWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyWebViewController.swift; path = ../../../../projects/ClassX/ClassX/WebFlow/MyWebViewController.swift; sourceTree = "<group>"; };
+		44FCDF3222D7512F00228EC2 /* AsyncRequestWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AsyncRequestWorker.swift; path = ../../../projects/ClassX/ClassX/AsyncRequestWorker.swift; sourceTree = "<group>"; };
+		44FCDF3522D75ACC00228EC2 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashViewController.swift; path = ../../../projects/ClassX/ClassX/SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,17 @@
 		44FCDEED22D7409200228EC2 /* ClassX */ = {
 			isa = PBXGroup;
 			children = (
+				44FCDF1C22D74AEE00228EC2 /* LoginFlow */,
+				44FCDF1E22D74B9D00228EC2 /* MapFlow */,
+				44FCDF1D22D74B8700228EC2 /* MasterFlow */,
+				44FCDF1F22D74BA900228EC2 /* WebFlow */,
 				44FCDEEE22D7409200228EC2 /* AppDelegate.swift */,
-				44FCDEF022D7409200228EC2 /* ViewController.swift */,
 				44FCDEF222D7409300228EC2 /* Main.storyboard */,
 				44FCDEF522D7409400228EC2 /* Assets.xcassets */,
 				44FCDEF722D7409400228EC2 /* LaunchScreen.storyboard */,
 				44FCDEFA22D7409400228EC2 /* Info.plist */,
+				44FCDF3222D7512F00228EC2 /* AsyncRequestWorker.swift */,
+				44FCDF3522D75ACC00228EC2 /* SplashViewController.swift */,
 			);
 			path = ClassX;
 			sourceTree = "<group>";
@@ -123,6 +140,39 @@
 				44FCDF1022D7409400228EC2 /* Info.plist */,
 			);
 			path = ClassXUITests;
+			sourceTree = "<group>";
+		};
+		44FCDF1C22D74AEE00228EC2 /* LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+				44FCDF2822D74D6B00228EC2 /* LoginViewController.swift */,
+			);
+			path = LoginFlow;
+			sourceTree = "<group>";
+		};
+		44FCDF1D22D74B8700228EC2 /* MasterFlow */ = {
+			isa = PBXGroup;
+			children = (
+				44FCDF2C22D74D8F00228EC2 /* MasterViewController.swift */,
+				44FCDF2E22D74D9D00228EC2 /* DetailViewController.swift */,
+			);
+			path = MasterFlow;
+			sourceTree = "<group>";
+		};
+		44FCDF1E22D74B9D00228EC2 /* MapFlow */ = {
+			isa = PBXGroup;
+			children = (
+				44FCDF2A22D74D8100228EC2 /* MyMapViewController.swift */,
+			);
+			path = MapFlow;
+			sourceTree = "<group>";
+		};
+		44FCDF1F22D74BA900228EC2 /* WebFlow */ = {
+			isa = PBXGroup;
+			children = (
+				44FCDF3022D74DAF00228EC2 /* MyWebViewController.swift */,
+			);
+			path = WebFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44FCDEF122D7409200228EC2 /* ViewController.swift in Sources */,
+				44FCDF2D22D74D8F00228EC2 /* MasterViewController.swift in Sources */,
+				44FCDF2922D74D6B00228EC2 /* LoginViewController.swift in Sources */,
+				44FCDF3622D75ACC00228EC2 /* SplashViewController.swift in Sources */,
+				44FCDF2F22D74D9D00228EC2 /* DetailViewController.swift in Sources */,
 				44FCDEEF22D7409200228EC2 /* AppDelegate.swift in Sources */,
+				44FCDF3322D7512F00228EC2 /* AsyncRequestWorker.swift in Sources */,
+				44FCDF2B22D74D8100228EC2 /* MyMapViewController.swift in Sources */,
+				44FCDF3122D74DAF00228EC2 /* MyWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
